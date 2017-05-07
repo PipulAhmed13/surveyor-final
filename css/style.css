@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css?family=Kanit|Questrial');
+	/*font-family: 'Questrial', sans-serif;
+	font-family: 'Kanit', sans-serif;*/
+
+body {
+	font-family: 'Questrial', sans-serif;
+
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    margin-top: 20px;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    background: #03084C;
+
+}
+
+@media (min-width: 768px){
+
+.navbar>.container .navbar-brand, 
+.navbar>.container-fluid .navbar-brand {
+	
+    margin-left: 0px;
+    
+}
+}
+
+sup {
+    top: -1.2em;
+    font-size: 10px;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: #f9f9f9;
+    background: #FF5A00;
+    font-size: 22px;
+}
+.navbar-default .navbar-nav>li>a span {
+	color:#FF5A00;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #949191;
+    font-size: 16px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #f3f3f3;
+    background-color: #504f8a;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #f3f3f3;
+    background-color: #504f8a;
+}
+
+.navbar-default .navbar-nav>li {
+    border-left: .02px solid #293a94 ;
+}
+
+#home-slider {
+	position: relative;
+
+}
+
+.home-slider-img {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.slider-content {
+	width: 500px;
+	position: absolute;
+	top:50%;
+	left:30%;
+	color: white;
+	transform: translate(-30%, -50%);
+
+}
+
+.slider-content h1 {
+	font-size: 40px;
+	font-weight: 900;
+}
+
+.slider-content p {
+	font-size: 14px;
+	color: #8A969F;
+
+}
+
+#about-us-section {
+
+}
+
+.about-us {
+	border: 1px solid #293a94;
+
+}
+
+.colored-text h2 {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 900;
+    letter-spacing: 1px;
+    color: #FF5A00;
+}
+.colored-text h2 span {
+	color: #fff;
+	background: #FF5A00;
+}
+.quisque-one {
+	float: right;
+	max-width: 40%;
+}
+
+.right-border {
+	border-right: 1px solid #293a94;
+	padding-top: 70px;
+	padding-left: 40px;
+    padding-right: 0;
+
+}
+
+.company-about {
+	padding-top: 70px;
+
+}
+.company {
+	
+}
+.company img {
+}
+.company h3 {
+	color: #2F4BC3;
+	
+}
+.company p {
+	padding-top: 30px;
+	
+}
+
+.company a {
+	color: #FF5A00
+	
+}
+
+#service-section {
+
+}
+
+.services {
+	border: 1px solid #293a94;
+	padding-bottom: 70px;
+}
+
+.service-top {
+	padding-top: 70px;
+	padding-bottom: 70px;
+
+}
+
+.service-top h1 {
+	color: #FF5A00;
+	font-weight: 900;
+	
+}
+
+.service-top p {
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.services-img img {
+	float: left;
+	margin: 0 auto;
+    margin-right: 20px;
+}
+.carousel-inner>.item>a>img,
+.carousel-inner>.item>img,
+.img-responsive,
+.thumbnail a>img,
+.thumbnail>img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.services-text {
+	float: left;
+	margin-bottom: 20px;
+}
+
+
+.btn-custom {
+	padding: 10px 50px;
+	background-color: #2f4bc3;
+    color: #fff;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+#planning-section {
+	
+
+}
+
+.planning {
+	background: #FF5A00;
+	border: 1px solid #293a94;
+
+}
+
+.planning-content {
+	padding-top: 70px;
+	padding-left: 70px;
+	color: #fff;
+
+}
+
+.pln-hdr {
+
+}
+
+.r2 {
+	padding-top: 40px;
+}
+
+.plannings-img
+
+}
+
+
+.planning-img
+
+}
+
+.planning-img img {
+    padding-top: 20px;
+    margin: 0 auto;
+    max-height: 540px; 
+    margin-top: 30px;
+}
+
+.btn-custom3 {
+	padding: 10px 50px;
+    background-color: #fbfbfb;
+    color: #15329e;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+
+#clients-section {
+
+}
+
+
+.clients {
+	background: #2F4BC3;
+	border: 1px solid #293a94;
+
+}
+.cl-img {
+	width: 20%;
+    padding: 35px 45px;
+    float: left;
+
+}
+
+.cl-img a img {
+
+}
+
+.cl-img:hover {
+	background: #5373D2;
+
+}
+
+#information-section {
+
+}
+.information {
+	background: #03084C;
+	color: #fff;
+	padding: 70px 0;
+	border: 1px solid #293a94;
+
+}
+
+.gray-text {
+	color: #a59b9b;
+
+}
+.info-two a {
+	color:#fff;
+}
+.info-two a:hover {
+	color: #D75A17;
+
+}
+
+.info-four p a {
+	color: #fff;
+
+}
+
+.info-four p a:hover {
+	color: #D75A17;
+}
+
+}
+
+#footer-section {
+
+}
+.footer {
+	background: #03084C;
+	color: #fff;
+	padding:35px 0;
+	border: 1px solid #293a94;
+
+}
+.footer p a {
+	color: #a59b9b;
+}
+.footer p a:hover {
+	color: #D75A17;
+}
